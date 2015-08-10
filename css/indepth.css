@@ -153,6 +153,8 @@
 	float: left;
 }
 
+
+
 .indepth_tech_text{
 	font-family: 'Roboto';
 	font-size: 16px;
@@ -203,18 +205,18 @@
 
 #indepth_break_1 .indepth_lo_quiero_cont{
 	left: 50%;
-	transform: translateX(150px);
+	transform: translateX(80px);
 	bottom: 210px;
 }
 
 #indepth_break_2 .indepth_lo_quiero_cont{
 	left: 50%;
-	transform: translateX(-130px);
-	top: 220px;
+	transform: translateX(-170px);
+	bottom: 540px;
 }
 
 .indepth_lo_quiero_cont{
-	width: 114px;
+	width: 230px;
 	height: auto;
 	display: table;
 	position: absolute;
@@ -223,11 +225,14 @@
 	
 }
 
+.loquieroover{
+	cursor: pointer;
+}
+
 .indepth_loquiero_ball{
 	width: 15px;
 	height: 15px;
-	background-color: #9fd035;
-	border-radius: 50%;
+	background-image: url(../images/Puntito.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -236,13 +241,13 @@
 	-moz-animation:    indepth_punto_animation 2s infinite; /* Fx 5+ */
 	-o-animation:      indepth_punto_animation 2s infinite; /* Opera 12+ */
 	animation:         indepth_punto_animation 2s infinite; 
-	margin-top: 2px;
+	margin-top: 5px;
 }
 
 .indepth_loquiero_cuadro{
 	width: 100%;
-	height: 45px;
-	background-image: url(../images/LoQuiero.png);
+	height:120px;
+	background-image: url(../images/LoQuiero_descripcion.png);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -251,12 +256,13 @@
 
 .indepth_loquiero_text{
 	width: 100%;
-	height: 36px;
-	color: white;
+	height: 45px;
+	color: #dadada;
 	font-family: 'Roboto';
+	font-style: italic;
 	font-size: 16px;
 	text-align: center;
-	line-height: 36px;
+	line-height: 50px;
 	text-transform: uppercase;
 	
 }
@@ -768,13 +774,13 @@ color: #878787;
 	}
 	
 	#indepth_break_1 .indepth_lo_quiero_cont {
-	    transform: translateX(110px);
+	    transform: translateX(50px);
 	    bottom: 180px;
 	}
 	
 	#indepth_break_2 .indepth_lo_quiero_cont {
-	    transform: translateX(-120px);
-	    top: 180px;
+	    transform: translateX(-160px);
+	    bottom: 460px;
 	}
 	
 	.indepth_tenis_cont{
@@ -842,13 +848,13 @@ color: #878787;
 	}
 	
 	#indepth_break_1 .indepth_lo_quiero_cont {
-	    transform: translateX(110px);
-	    bottom: 180px;
+	    transform: translateX(0px);
+	    bottom: 120px;
 	}
 	
 	#indepth_break_2 .indepth_lo_quiero_cont {
-	    transform: translateX(-120px);
-	    top: 180px;
+	    transform: translateX(-140px);
+	    bottom: 280px;
 	}
 	
 	.indepth_tech_col {
@@ -893,13 +899,29 @@ color: #878787;
 	}
 	
 	#indepth_break_1 .indepth_lo_quiero_cont {
-	    transform: translateX(20px);
+	    transform: translateX(25px);
 	    bottom: 90px;
 	}
 	
 	#indepth_break_2 .indepth_lo_quiero_cont {
 	    transform: translateX(-80px);
-	    top: 90px;
+	    bottom: 220px;
+	}
+	
+	.indepth_lo_quiero_cont {
+	    width: 110px;
+	}
+	
+	.indepth_loquiero_cuadro {
+	    height: 57px;
+	    display: block;
+	}
+	
+	.indepth_loquiero_text {
+	    height: 20px;
+	    font-size: 9px;
+	    line-height: 25px;
+
 	}
 
 }
@@ -909,6 +931,10 @@ color: #878787;
 	#indepth_cover{
 		height: 540px;	
 	}
+	
+	.indepth_tech_col.der{
+	margin-top: 200px;
+}
 	
 	.indepth_tech_col {
 	    width: 100%;
@@ -968,13 +994,13 @@ color: #878787;
 	}
 	
 	#indepth_break_1 .indepth_lo_quiero_cont {
-	    transform: translateX(0px);
-	    bottom: 80px;
+	    transform: translateX(10px);
+	    bottom: 70px;
 	}
 	
 	#indepth_break_2 .indepth_lo_quiero_cont {
-	    transform: translateX(-80px);
-	    top: 90px;
+	    transform: translateX(-65px);
+	    bottom: 160px;
 	}
 
 	
