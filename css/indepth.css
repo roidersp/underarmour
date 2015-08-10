@@ -166,15 +166,15 @@
 }
 
 .indepth_uno{
-	height: 230px;
+	height: 250px;
 }
 
 .indepth_dos{
-	height: 120px;
+	height: 140px;
 }
 
 .indepth_tres{
-	height: 100px;
+	height: 120px;
 }
 
 .video-container {
@@ -961,14 +961,29 @@ color: #878787;
 	    height: 250px;
 	    background-size: 600px auto;
 	}
+	
+	.video-container {
+	    padding-bottom: 48.3%;
+
+	}
+	
+	#indepth_break_1 .indepth_lo_quiero_cont {
+	    transform: translateX(0px);
+	    bottom: 80px;
+	}
+	
+	#indepth_break_2 .indepth_lo_quiero_cont {
+	    transform: translateX(-80px);
+	    top: 90px;
+	}
 
 	
 }
 
 @media screen and (max-width: 320px) {
 	.indepth_break {
-	    height: 280px;
-	    background-size: 700px auto;
+	    height: 240px;
+	    background-size: 600px auto;
 	}
 
 	
