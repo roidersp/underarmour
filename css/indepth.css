@@ -3,6 +3,10 @@
 	display: none;
 }
 
+#recommended-wrapper{
+	display: none;	
+}
+
 .indepth_share{
 	position: fixed;
 	right: 15px;
@@ -289,8 +293,8 @@
 }
 
 .indepth_loquiero_ball{
-	width: 15px;
-	height: 15px;
+	width: 20px;
+	height: 20px;
 	background-image: url(../images/Puntito.png);
 	background-position: center center;
 	background-repeat: no-repeat;
