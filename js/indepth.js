@@ -5,17 +5,7 @@ var disqus_number_c=2;
 var disqus_per_page=3;
 var tamaño_total=1920;
 
-/*$(document).on({
-	mouseenter: function(){
-		if( $(window).width()>600)
-			$(this).find(".indepth_loquiero_cuadro").show();
-	},
-	mouseleave: function(){
-		if( $(window).width()>600)
-			$(this).find(".indepth_loquiero_cuadro").hide();
-	}
-},".loquieroover");
-*/
+
 
 $(document).on("click", "#indepth_cover" ,function(){
 		var position = $(".indepth_content_top").position();
